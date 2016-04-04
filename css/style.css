@@ -11,12 +11,24 @@
     border: none;
     font-size: 16px;
     height: auto;
-    margin: 0;
-    outline: 0;
+    display: block;
     padding: 15px;
-    width: 100%;
+    width: 80%;
     background-color: #f0f4f4;
     color: #8a97a0;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-    margin-bottom: 30px;
+    margin: 15px auto;
+    border-radius: 5px;
   }
+
+  input {
+
+  }
+
+ label {
+    margin-left: 7%;
+}
+
+input:focus,
+textarea:focus{
+     box-shadow: 0 0 0 1pt #4f6581;
+ };
