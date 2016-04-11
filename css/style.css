@@ -1,10 +1,10 @@
 
 /*
--outliane male it darker 
++outliane make it darker 
 -Fonts for entire page 
--zipcode - make it smoler 
++zipcode - make it smoler 
 -state outline? maybe fix it with shaow box
--top border for second formset 
++top border for second formset 
 -formating second section 
 -checkbox style 
 -radiobutton style 
@@ -20,6 +20,11 @@
   box-sizing: border-box;
 
 }
+
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
 
 .header{
   background-color: #2e3946;
@@ -50,6 +55,13 @@
   border-top: 2px groove #2e3946;
   }
 
+.Newsletter {
+    width: 90%;
+    border: none;
+    margin: 0 auto 15px;
+    border-top: 2px groove #2e3946; 
+ }
+
 .Contact_Information h2 {
   padding-bottom: 5px;
 }
@@ -71,15 +83,23 @@
     background-color: #f0f4f4;
     color: #8a97a0;
     margin: 15px auto;
+    margin-left: 0;
     border-radius: 5px;
   }
 
+#post_code {
+    width: 50%;
+    margin-left: 0;
+}
    #state{
     width: 98%;
   }
 
 
 input:focus,
-textarea:focus {
-     box-shadow: 0 0 0 1pt #4f6581;
+textarea:focus
+select:focus {
+     box-shadow: 0 0 0 1pt #041529;
  };
+
+ 
