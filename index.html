@@ -84,25 +84,27 @@
 							<label for="post_code">Zip Code</label>
 							<input type="postal-code" id="post_code" name="user_post_code">
 
+
+						</fieldset>	
+								<fieldset class="Newsletter">
+								<h2>Newsletter</h2>
+								<label>Select the newsletters you would like to recive</label>
+								<br>
+								<input type="checkbox" id="html_news" name="letter" value="html_news"><label for="html_news">HTML News</label><br>
+								<input type="checkbox" id="css_news" name="letter" value="css_news"><label for="css_news">CSS News</label><br>
+								<input type="checkbox" id="js_news" name="letter" value="js_news"><label for="js_news">Javascript News</label><br>
+
+
+								<label>Newsletter format</label><br>
+								<input type="radio" name="news" id="html" value="html"><label for="html">HTML</label><br>
+								<input type="radio" name="news" id="p_text" value="p_text"><label for="p_text">Plain text</label>
+
+								<label for="topic" >Other topics you'd like to hear about</label><br>
+								<textarea id="topic" name="other_topic"></textarea>
+
+						</fieldset>	
 						</form>
-					</fieldset>	
-					<fieldset class="Newsletter">
-						<h2>Newsletter</h2>
-						<label>Select the newsletters you would like to recive</label>
-						<br>
-						<input type="checkbox" id="html_news" name="letter" value="html_news"><label for="html_news">HTML News</label><br>
-						<input type="checkbox" id="css_news" name="letter" value="css_news"><label for="css_news">CSS News</label><br>
-						<input type="checkbox" id="js_news" name="letter" value="js_news"><label for="js_news">Javascript News</label><br>
-
-
-						<label>Newsletter format</label><br>
-						<input type="radio" name="news" id="html" value="html"><label for="html">HTML</label><br>
-						<input type="radio" name="news" id="p_text" value="p_text"><label for="p_text">Plain text</label>
-
-						<label for="topic" >Other topics you'd like to hear about</label><br>
-						<textarea id="topic" name="other_topic"></textarea>
-
-					</fieldset>	
+					
 
 					<button type="submit" id="button">Sign Up</button>
 

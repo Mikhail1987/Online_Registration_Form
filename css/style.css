@@ -88,7 +88,7 @@ p {
   }
 
 #post_code {
-    width: 50%;
+    width: 120px;
     margin-left: 0;
 }
    #state{
@@ -102,4 +102,11 @@ select:focus {
      box-shadow: 0 0 0 1pt #041529;
  };
 
- 
+ /* -----Style for checkbox*/
+
+
+input[type="checkbox"]{
+    width: 50px;
+
+}
+
