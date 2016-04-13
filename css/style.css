@@ -21,10 +21,16 @@
 
 }
 
-p {
-    font-family: "Times New Roman", Times, serif;
+
+body {
+  
+  font-family: 'Merriweather', sans-serif;
+  color: #8d959c;
 }
 
+h2 {
+  color: black;
+}
 
 .header{
   background-color: #2e3946;
@@ -37,6 +43,7 @@ p {
   margin-top: 0;
   padding: 28px 10px;
   text-align: center;
+  color: white;
 }
 
 .discr {
@@ -48,9 +55,14 @@ p {
   
 }
 
-.Contact_Information {
+form {
   width: 90%;
   margin: 0 auto 15px;
+}
+
+.Contact_Information {
+  
+  
   border: none;
   border-top: 2px groove #2e3946;
   }
@@ -88,7 +100,7 @@ p {
   }
 
 #post_code {
-    width: 120px;
+    width: 180px;
     margin-left: 0;
 }
 
@@ -96,33 +108,38 @@ p {
     width: 98%;
   }
 
-
-input:focus,
-textarea:focus
-select:focus {
-     box-shadow: 0 0 0 1pt #041529;
- };
-
- /* -----Style for checkbox*/
-
-
-input[type="checkbox"]{
-    width: 50px;
-
-}
-
 ::-webkit-input-placeholder {
   text-align: right;
   font-style: italic;
   padding-right: 3px;
 }
 
-input#state-address::-webkit-input-placeholder {
-  text-align: left;
-  font-style: normal;
-  padding-right: 3px;
+input:focus,
+textarea:focus,
+select:focus {
+     box-shadow: 0 0 0 1pt #041529;
+ };
+
+ /* -----Style for second field set*/
+
+.Newsletter p {
+  padding:0 ;
+  margin: 0;
+}
+#topic {
+  width: 90%;
+  height: 120px;
+  border-radius: 5px;
+  background-color: #eeeff2;
+  border: none;
 }
 
-#state {
-  display: none;
+#button {
+  background-color: #4fbbb6;
+  color: white;
+  width: 80%;
+  height: 80px;
+  border: none;
+  border-radius: 5px;
+  
 }

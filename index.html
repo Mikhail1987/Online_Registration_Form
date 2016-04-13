@@ -3,6 +3,7 @@
 	<head>
 		<title>Registration Form</title>
 		 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 		<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
     			<link rel="stylesheet" href="css/normalize.css">
     			<link rel="stylesheet" href="css/style.css">
 
@@ -15,8 +16,9 @@
 				<h2>Signup for our newsletter</h2>
 				<p>Get the latest news on how your code is doing right in your inbox</p>
 			</div>		
-					<fieldset class="Contact_Information">
+					
 						<form action="index.html" method="post">
+							<fieldset class="Contact_Information">
 							<h2>Contact Information</h2>
 							<label for="name">Full Name</label>	
 							<input type="text" id="name" name="user_name" required placeholder="Required">
@@ -30,7 +32,7 @@
 							<input type="street-address" id="city" name="user_city">
 							<label for="state">State</label>
 							<SELECT input list="state" id="user_stateaddress" class="contact" name="user_state" placeholder="Choose State">
-								<datalist id="state">
+								<option value="" disabled selected hidden>Please State...</option>
 								<option value="Alabama">Alabama</option>
 								<option value="Alaska">Alaska</option>
 								<option value="Arizona">Arizona</option>
@@ -81,7 +83,7 @@
 								<option value="West_Virginia">West Virginia</option>
 								<option value="Wisconsin">Wisconsin</option>
 								<option value="Wyoming">Wyoming</option>
-								 </datalist>
+								 
 							</SELECT>
 							<label for="post_code">Zip Code</label>
 							<input type="postal-code" id="post_code" name="user_post_code">
@@ -90,14 +92,14 @@
 						</fieldset>	
 								<fieldset class="Newsletter">
 								<h2>Newsletter</h2>
-								<label>Select the newsletters you would like to recive</label>
+								<p class="bottom_p">Select the newsletters you would like to recive</p>
 								<br>
 								<input type="checkbox" id="html_news" name="letter" value="html_news"><label for="html_news">HTML News</label><br>
 								<input type="checkbox" id="css_news" name="letter" value="css_news"><label for="css_news">CSS News</label><br>
 								<input type="checkbox" id="js_news" name="letter" value="js_news"><label for="js_news">Javascript News</label><br>
 
 
-								<label>Newsletter format</label><br>
+								<p class="bottom_p">Newsletter format</p><br>
 								<input type="radio" name="news" id="html" value="html"><label for="html">HTML</label><br>
 								<input type="radio" name="news" id="p_text" value="p_text"><label for="p_text">Plain text</label>
 
@@ -105,11 +107,13 @@
 								<textarea id="topic" name="other_topic"></textarea>
 
 						</fieldset>	
+
+						<button type="submit" id="button">Sign Up</button>
+
+						<p>Copyright The Code Review</p>
 						</form>
 					
 
-					<button type="submit" id="button">Sign Up</button>
-
-					<p>Copyright The Code Review</p>
+					
 		</body>
 </html>
