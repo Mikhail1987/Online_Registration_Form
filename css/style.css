@@ -114,17 +114,8 @@ select:focus {
      box-shadow: 0 0 0 1pt #041529;
  };
 
+
  /* -----Style for second field set*/
-
-
-input[type="radio"] {
-    margin-bottom: 15px;
-}
-
-input[type="checkbox"] {
-    margin-top: 15px; 
-}
-
 
 
  .Newsletter label {
@@ -158,5 +149,36 @@ p {
   height: 60px;
   border: none;
   border-radius: 5px;
+  display: block;
+  
   }
 
+
+input[type="checkbox"] {
+    margin-top: 15px;
+    margin-right: 10px; 
+    box-shadow: none;
+}
+
+input[type="radio"] {
+    margin-bottom: 15px;
+    margin-right: 10px; 
+    box-shadow: none;
+}
+
+.button_holdder {
+
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    margin: 0 auto;
+    
+}
+
+/*I need to make a flex container for button? coze by some reasone margins don't apply to it*/
