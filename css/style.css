@@ -1,16 +1,5 @@
 
 /*
-+outliane make it darker 
--Fonts for entire page 
-+zipcode - make it smoler 
--state outline? maybe fix it with shaow box
-+top border for second formset 
--formating second section 
--checkbox style 
--radiobutton style 
--submit button
--text area
--empty field - reqaried 
 
 
 */
@@ -55,6 +44,10 @@ h2 {
   
 }
 
+.discr p {
+  margin-bottom: 30px;
+}
+
 form {
   width: 90%;
   margin: 0 auto 15px;
@@ -72,6 +65,7 @@ form {
     border: none;
     margin: 0 auto 15px;
     border-top: 2px groove #2e3946; 
+    display: block;
  }
 
 .Contact_Information h2 {
@@ -100,7 +94,7 @@ form {
   }
 
 #post_code {
-    width: 180px;
+    width: 160px;
     margin-left: 0;
 }
 
@@ -122,24 +116,47 @@ select:focus {
 
  /* -----Style for second field set*/
 
-.Newsletter p {
-  padding:0 ;
-  margin: 0;
+
+input[type="radio"] {
+    margin-bottom: 15px;
 }
+
+input[type="checkbox"] {
+    margin-top: 15px; 
+}
+
+
+
+ .Newsletter label {
+     padding-left: 10px;
+    }
+
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.bottom_p {
+  margin-top: 15px;
+  
+}
+
 #topic {
-  width: 90%;
+  width: 98%;
   height: 120px;
   border-radius: 5px;
   background-color: #eeeff2;
   border: none;
+  margin-top: 10px;
 }
 
 #button {
   background-color: #4fbbb6;
   color: white;
   width: 80%;
-  height: 80px;
+  height: 60px;
   border: none;
   border-radius: 5px;
-  
-}
+  }
+
