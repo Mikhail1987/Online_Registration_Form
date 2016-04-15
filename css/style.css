@@ -68,9 +68,7 @@ form {
     display: block;
  }
 
-.Contact_Information h2 {
-  padding-bottom: 5px;
-}
+
 
 #name,
  #email,
@@ -145,12 +143,11 @@ p {
 #button {
   background-color: #4fbbb6;
   color: white;
-  width: 80%;
+  width: 85%;
   height: 60px;
   border: none;
   border-radius: 5px;
   display: block;
-  
   }
 
 
@@ -167,8 +164,9 @@ input[type="radio"] {
 }
 
 .button_holdder {
-
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 footer {
@@ -181,4 +179,14 @@ form {
     
 }
 
-/*I need to make a flex container for button? coze by some reasone margins don't apply to it*/
+.wrapper {
+  display: flex;
+  jastify-content: center;
+}
+
+legend {
+  margin-top: 50px;
+}
+
+
+
