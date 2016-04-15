@@ -66,6 +66,7 @@ form {
     margin: 0 auto 15px;
     border-top: 2px groove #2e3946; 
     display: block;
+    padding-top: 30px;
  }
 
 
@@ -127,8 +128,8 @@ p {
 }
 
 .bottom_p {
-  margin-top: 15px;
-  
+  margin-top: 30px;
+      
 }
 
 #topic {
@@ -172,6 +173,7 @@ input[type="radio"] {
 footer {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 form {
@@ -179,14 +181,31 @@ form {
     
 }
 
-.wrapper {
-  display: flex;
-  jastify-content: center;
+fieldset {
+    position: relative;
+    padding-top: 70px;
 }
 
 legend {
-  margin-top: 50px;
+    position: absolute;
+    top: 0;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 
+@media screen and (min-width: 720px) {
+
+    #wrapper{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column; 
+        width: 60%;
+
+    }
+
+
+}
 

@@ -9,12 +9,12 @@
 
 	</head>
 		<body>
-			<div id="wrapper">
+			
 			<div class="header">
 				<h2>THE CODE REVIEW</h2>
 			</div>
 
-			
+			<div id="wrapper">
 			<div class="discr">
 				<h2>Signup for our newsletter</h2>
 				<p>Get the latest news on how your code is doing right in your inbox</p>
@@ -22,7 +22,7 @@
 					
 						<form action="index.html" method="post">
 							<fieldset class="Contact_Information">
-							<h2>Contact Information</h2>
+							<legend>Contact Information</legend>
 							<label for="name">Full Name</label>	
 							<input type="text" id="name" name="user_name" required placeholder="Required">
 							<label for="email">Email Address</label>
@@ -30,11 +30,11 @@
 							<label for="tel">Phone Number</label>
 							<input type="tel" id="tel" name="user_tel">
 							<label  for="address">Street Address</label>
-							<input type="street-address" id="address" name="user_address">
+							<input type="text" id="address" name="user_address">
 							<label for="city">City</label>
-							<input type="street-address" id="city" name="user_city">
-							<label for="state">State</label>
-							<SELECT input list="state" id="user_stateaddress" class="contact" name="user_state" placeholder="Choose State">
+							<input type="text" id="city" name="user_city">
+							<label for="user_stateaddress">State</label>
+							<SELECT   id="user_stateaddress" class="contact" name="user_state" >
 								<option value="" disabled selected hidden>Choose State...</option>
 								<option value="Alabama">Alabama</option>
 								<option value="Alaska">Alaska</option>
@@ -89,12 +89,12 @@
 								 
 							</SELECT>
 							<label for="post_code">Zip Code</label>
-							<input type="postal-code" id="post_code" name="user_post_code">
+							<input type="number" min="4" id="post_code" name="user_post_code">
 
 
 						</fieldset>	
 								<fieldset class="Newsletter">
-								<h2>Newsletter</h2>
+								<legend>Newsletter</legend>
 								<p class="bottom_p">Select the newsletters you would like to recive</p>
 								<br>
 								<input type="checkbox" id="html_news" name="letter" value="html_news"><label for="html_news">HTML News</label><br>
@@ -113,12 +113,12 @@
 						<div class="button_holdder">							
 						<button type="submit" id="button">Sign Up</button>
 						</div >
-						</div>
+						
 						<footer>
 						<p>Copyright The Code Review</p>
 						</footer>
 						</form>
-					
+						</div>
 
 					
 		</body>
