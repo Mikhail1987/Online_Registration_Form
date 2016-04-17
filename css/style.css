@@ -111,7 +111,7 @@ input:focus,
 textarea:focus,
 select:focus {
      box-shadow: 0 0 0 1pt #041529;
- };
+ }
 
 
  /* -----Style for second field set*/
@@ -196,7 +196,7 @@ legend {
 }
 
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 760px) {
 
     #wrapper{
         display: flex;
@@ -206,6 +206,30 @@ legend {
 
     }
 
+    #name,
+    #email,
+    #tel,
+    #city,
+    #address,
+    #post_code,
+    #user_stateaddress {
+        
+        width: 76%;
+        
+      }
+
+    .Contact_Information label {
+        display:inline-block;
+        float: left;
+        padding-top: 15px;
+        text-align: left;
+        width: 24%;
+        padding-right: 10px;
+    }
+
+    label[for="name"]{
+    padding-top: 30px;
+    }   ​
 
 }
 
